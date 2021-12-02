@@ -6,7 +6,9 @@ namespace AOC21
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Day1.Run();
+
+            Console.ReadLine();
         }
     }
 }
