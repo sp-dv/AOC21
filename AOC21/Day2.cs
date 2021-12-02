@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace AOC21
 {
     static class Day2
     {
-
         private static SubmarineInstruction[] inputs = 
             Common.GiveMeLines(2).Select(line => new SubmarineInstruction(line)).ToArray();
 
